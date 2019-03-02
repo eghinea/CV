@@ -3,6 +3,18 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  font-size: 5rem;
+}
+h3 {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  padding: 5rem;
+  font-size: 3rem;
+}
+
 h2 {
   display: inline;
 }
@@ -14,11 +26,15 @@ h2 {
 .skill-row {
   padding: 5rem;
 }
-
+.mail {
+  border-radius: 50%;
+}
 .top-container {
-  background-image: url("img/internet.jpg");
+  background-image: url("img/hello.jpg");
   /* height: 700px; */
-  padding: 250px;
+  padding: 300px;
+  /* padding-top: 250px; */
+  color: white;
 }
 
 .skills {
@@ -30,4 +46,21 @@ h2 {
   height: 300px;
   background-repeat: no-repeat;
   background-position: center;
+}
+.contact-me {
+  background-image: url("img/contact.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3%;
+  color: white;
+}
+.bottom-container {
+  background-color: #11999E;
+  padding: 1.5%;
+}
+.Education {
+  background-image: url("img/ed_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5%;
 }
