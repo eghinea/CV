@@ -64,3 +64,18 @@ h2 {
   background-position: center;
   padding: 5%;
 }
+.icon {
+  margin-right: 1rem;
+}
+.footer-link {
+  margin-right: 1rem;
+  color: white;
+}
+.fot {
+  margin-top: 1rem;
+}
+.card1 {
+  margin: 2rem;
+  border-width: medium;
+  border-color: black;
+}

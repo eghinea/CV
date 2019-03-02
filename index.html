@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Eduard Ghinea</title>
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="icon" href="img/favicon.ico">
@@ -12,8 +13,45 @@
 
 <body>
   <!-- First Container name and function -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><i class="far fa-hand-peace fa-3x"></i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Custom Style
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#"><em>Under Construction</em></a>
+            <a class="dropdown-item" href="#"><em>Under Construction</em></a>
+            <a class="dropdown-item" href="#"><em>Under Construction</em></a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <div class="top-container">
+  <div class="top-container" id="home">
     <h1><em>I'm Eduard,</em></h1>
     <p>a web developer in training.</p>
 
@@ -21,7 +59,7 @@
 
   <!-- Second Container Presentation -->
 
-  <div class="middle-container">
+  <div class="middle-container" id="about">
     <div class="profile">
       <div class="about">
         <!-- For image background only. -->
@@ -39,8 +77,8 @@
       <div class="card">
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
-            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Fundamentals of Java Programming
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <i class="fab fa-java fa-3x icon"></i>Fundamentals of Java Programming
             </button>
           </h2>
         </div>
@@ -57,7 +95,7 @@
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Fundamentals of Swift Programming
+              <i class="fas fa-file-code fa-3x icon"></i><i class="fab fa-apple fa-3x icon"></i>Fundamentals of Swift Programming
             </button>
           </h2>
         </div>
@@ -73,7 +111,7 @@
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Web Development Bootcamp
+              <i class="fab fa-html5 fa-3x icon"></i><i class="fab fa-css3-alt fa-3x icon"></i><i class="fab fa-js-square fa-3x icon"></i>Web Development Bootcamp
             </button>
           </h2>
         </div>
@@ -87,7 +125,7 @@
       </div>
     </div>
 
-    <div class="skills">
+    <div class="skills" id="experience">
       <h3>My Experience.</h3>
 
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -151,43 +189,45 @@
     </div>
   </div>
 
-  <div class="Education">
+  <div class="Education" id="education">
     <h3 class="edu">Education</h3>
     <div class="container">
       <div class="row">
-        <div class="col-sm">
-          <div class="card" style="width: 18rem;">
+        <div class="col-lg-4 col-md-6">
+          <div class="card card1">
             <img src="img/fac.jpg" class="card-img-top" alt="Valahia">
             <div class="card-body">
               <h5 class="card-title"><strong>Valahia</strong> University Targoviste</h5>
               <h6 class="card-subtitle mb-2 text-muted">Electronics and Communications</h6>
               <p class="card-text">2014 - 2018.</p>
-              <a href="http://fie.valahia.ro/" class="btn btn-info">Official Website</a>
-              <a href="https://www.google.com/maps/place/Facultatea+de+Inginerie+Electric%C4%83,+Electronic%C4%83+%C8%99i+Tehnologia+Informa%C8%9Biei/@44.9436302,25.4560266,19z/data=!4m8!1m2!2m1!1selectronica+si+telecomunicatii+valahia!3m4!1s0x40b2f6c7d709dfcb:0xe29c3a021d1d138a!8m2!3d44.9437136!4d25.4552363" class="btn btn-info">Location</a>
+              <a href="http://fie.valahia.ro/" class="btn btn-info"><i class="fab fa-internet-explorer fa-3x"></i></a>
+              <a href="https://www.google.com/maps/place/Facultatea+de+Inginerie+Electric%C4%83,+Electronic%C4%83+%C8%99i+Tehnologia+Informa%C8%9Biei/@44.9436302,25.4560266,19z/data=!4m8!1m2!2m1!1selectronica+si+telecomunicatii+valahia!3m4!1s0x40b2f6c7d709dfcb:0xe29c3a021d1d138a!8m2!3d44.9437136!4d25.4552363"
+                class="btn btn-info"><i class="fas fa-map-marker-alt fa-3x"></i></a>
             </div>
           </div>
         </div>
-        <div class="col-sm">
-          <div class="card" style="width: 18rem;">
+        <div class="col-lg-4 col-md-6">
+          <div class="card card1">
             <img src="img/liceu.jpg" class="card-img-top" alt="Vladimir Streinu">
             <div class="card-body">
               <h5 class="card-title">Colegiul National <strong>Vladimir Streinu</strong></h5>
               <h6 class="card-subtitle mb-2 text-muted">Mathematics & Computer Science</h6>
               <p class="card-text">2005-2009.</p>
-              <a href="http://www.cnvs.eu/" class="btn btn-info">Official Website</a>
-              <a href="https://www.google.com/maps/place/Colegiul+Na%C8%9Bional+Vladimir+Streinu/@44.7218517,25.3144642,19.25z/data=!4m12!1m6!3m5!1s0x0:0xc9eeb15fc8e1ca0e!2sColegiul+Na%C8%9Bional+Vladimir+Streinu!8m2!3d44.7221298!4d25.3143447!3m4!1s0x0:0xc9eeb15fc8e1ca0e!8m2!3d44.7221298!4d25.3143447" class="btn btn-info">Location</a>
+              <a href="http://www.cnvs.eu/" class="btn btn-info"><i class="fab fa-internet-explorer fa-3x"></i></a>
+              <a href="https://www.google.com/maps/place/Colegiul+Na%C8%9Bional+Vladimir+Streinu/@44.7218517,25.3144642,19.25z/data=!4m12!1m6!3m5!1s0x0:0xc9eeb15fc8e1ca0e!2sColegiul+Na%C8%9Bional+Vladimir+Streinu!8m2!3d44.7221298!4d25.3143447!3m4!1s0x0:0xc9eeb15fc8e1ca0e!8m2!3d44.7221298!4d25.3143447"
+                class="btn btn-info"><i class="fas fa-map-marker-alt fa-3x"></i></a>
             </div>
           </div>
         </div>
-        <div class="col-sm">
-          <div class="card" style="width: 18rem;">
+        <div class="col-lg-4 col-md-12">
+          <div class="card card1">
             <img src="img/sc.jpg" class="card-img-top" alt="Serban Cioculescu">
             <div class="card-body">
-              <h5 class="card-title">School <strong>Serban Cioculescu</strong></h5>
+              <h5 class="card-title">Primary & Secondary School <strong>Serban Cioculescu</strong></h5>
               <h6 class="card-subtitle mb-2 text-muted">Gymnasium</h6>
               <p class="card-text">1996 - 2005.</p>
-              <a href="https://www.facebook.com/pages/Scoala-Serban-Cioculescu/132726640085715" class="btn btn-info">Official Page</a>
-              <a href="https://www.google.com/maps/place/Scoala+Serban+Cioculescu/@44.7208589,25.3204578,19.5z/data=!4m5!3m4!1s0x0:0x4b3ab2d23d3df3bd!8m2!3d44.7208717!4d25.3206978" class="btn btn-info">Location</a>
+              <a href="https://www.facebook.com/pages/Scoala-Serban-Cioculescu/132726640085715" class="btn btn-info"><i class="fab fa-facebook fa-3x"></i></a>
+              <a href="https://www.google.com/maps/place/Scoala+Serban+Cioculescu/@44.7208589,25.3204578,19.5z/data=!4m5!3m4!1s0x0:0x4b3ab2d23d3df3bd!8m2!3d44.7208717!4d25.3206978" class="btn btn-info"><i class="fas fa-map-marker-alt fa-3x"></i></a>
             </div>
           </div>
         </div>
@@ -196,20 +236,24 @@
 
   </div>
 
-  <div class="contact-me">
+  <div class="contact-me" id="contact">
     <h3>Get In Touch</h3>
-    <h2>Lorem ipsum dolor sit amet, non elit.</h2>
-    <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+    <h2>Did I manage to capture your attention?</h2>
+    <p>I am always available for a discusion, contact me via email using the mail option bellow, the social media, or by phone.</p>
     <a href="mailto:eduard.ghinea@gmail.com"><img src="img/mail.png" class="mail" alt="mail"></a>
+    <i class="fas fa-at">eduard.ghinea@gmail.com</i><br>
+    <i class="fas fa-phone">0736872237</i>
+
   </div>
   </div>
   <!-- Third Container Contact Options and Social Media -->
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/eduard-ghinea-b97515b6/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="">C.V.</a>
-    <p>© 2018 Eduard Ghinea.</p>
+    <a class="footer-link" href="https://www.linkedin.com/in/eduard-ghinea-b97515b6/"><i class="fab fa-linkedin fa-3x"></i></a>
+    <a class="footer-link" href="https://twitter.com/eghy00"><i class="fab fa-twitter fa-3x"></i></a>
+    <a class="footer-link" href="https://github.com/eghinea/C.V./blob/master/Eduard%20Ghinea.pdf"><i class="far fa-file-pdf fa-3x"></i></a>
+    <a class="footer-link" href="https://github.com/eghinea/C.V./blob/master/Eduard%20Ghinea.docx"><i class="far fa-file-word fa-3x"></i></a>
+    <p class="fot">© 2018 Eduard Ghinea.</p>
   </div>
 
 
