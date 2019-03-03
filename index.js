@@ -2,6 +2,7 @@ $(document).ready(function(){
 $("#drpi1").click(function(){
   alert("WARNING!! : Changing the text color doesn't necessarily improvee the visibility, the purpose is to show the DOM manipulation.");
   $("div").css({color:"#fb3569"});
+  $("h3").css({color:"#fb3569"});
 });
 
 
@@ -41,13 +42,17 @@ $("#drpi3").click(function(){
   $(".middle-container").css('background-color', '#34699a');
   $("#collapseThree").css('background-color', '#34699a');
   $(".contact-me").css('background-image', 'none');
-  $(".contact-me").css('background-color', '#65c6c4');
+  $(".contact-me").css('background-color', '#a6e3e9');
   $(".Education").css('background-image', 'none');
-  $(".Education").css('background-color', '#a6e3e9');
+  $(".Education").css('background-color', '#65c6c4');
   $(".bottom-container").css('background-color', '#cbf1f5');
 });
 
 $("#drpi4").click(function(){
   location.reload();
+
 });
+
+
+
 });
