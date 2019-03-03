@@ -120,4 +120,7 @@ h2 {
   .btn {
     margin: 2rem;
   }
+  .txt {
+    font-size: 125%;
+  }
 }
