@@ -25,6 +25,12 @@ h2 {
 }
 .skill-row {
   padding: 5rem;
+  margin-left: 5rem;
+}
+.drop1 {
+  text-align: left;
+  max-width: 50%;
+
 }
 .mail {
   border-radius: 50%;
@@ -35,6 +41,15 @@ h2 {
   padding: 300px;
   /* padding-top: 250px; */
   color: white;
+}
+.exp1 {
+  text-align: left;
+
+}
+.ab1 {
+  text-align: left;
+  max-width: 50%;
+
 }
 
 .skills {
@@ -78,4 +93,31 @@ h2 {
   margin: 2rem;
   border-width: medium;
   border-color: black;
+}
+.card1:hover {
+  background-color: #b4e9e2;
+}
+
+@media (max-width: 880px) {
+  nav {
+    font-size: 150%;
+  }
+  .ab1 {
+    font-size: 150%;
+  }
+  .card-body {
+    font-size: 150%;
+  }
+  .skill-row {
+    font-size: 150%;
+  }
+  .contact-me {
+    font-size: 150%;
+  }
+  .bottom-container {
+    font-size: 150%;
+  }
+  .btn {
+    margin: 2rem;
+  }
 }

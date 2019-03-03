@@ -25,27 +25,28 @@
             Custom Style
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#"><em>Under Construction</em></a>
-            <a class="dropdown-item" href="#"><em>Under Construction</em></a>
-            <a class="dropdown-item" href="#"><em>Under Construction</em></a>
+            <a class="dropdown-item" id="drpi1" href="#"><em>Change text to hotpink</em></a>
+            <a class="dropdown-item" id="drpi2" href="#"><em>Disable images</em></a>
+            <a class="dropdown-item" id="drpi3" href="#"><em>Change background color</em></a>
+            <a class="dropdown-item" id="drpi4" href="#"><em>Reset changes</em></a>
           </div>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" id="navhomebtn" href="#home">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" id="navaboutbtn" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" id="navexpbtn" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" id="navedubtn" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" id="navcontactbtn" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -64,13 +65,13 @@
       <div class="about">
         <!-- For image background only. -->
       </div>
-      <img src="" alt="">
+      <div class="container ab1">
+        <p>My name is Eduard and I want to become a Web Developer.</p>
+        <p>I have discovered programming a few years back and since then that is all I wanted to do, but between wishing and doing is a huge gap.</p>
+        <p>Following that path I have tried different programming languages to see what suits me the best.</p>
+        <p>I have always tried to learn more and grow so I have did a number of courses like :</p>
 
-      <p>My name is Eduard and I want to becomne a Web Developer.</p>
-      <p>I have discovered programming a few years back and since than that is all I wanted to do, but between wishing and doing is a huge gap.</p>
-      <p>Following that path I have tried different programming languages to see what suits me the best.</p>
-      <p>I have always tried to learn more and grow so I have did a number of courses like :</p>
-
+      </div>
     </div>
 
     <div class="accordion" id="accordionExample">
@@ -84,7 +85,7 @@
         </div>
 
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-          <div class="card-body">
+          <div class="card-body container drop1">
             <p>The course was done at <a href="https://www.infoacademy.net/">InfoAcademy</a>, it took twelve weeks to complete and to create a phone agenda.</p>
             <p>It was my first interaction with a programming language and it was hard at first, but than I managed to understand it.</p>
             <p>What got me into this course was the promise for a automation position, sadly it never happened.</p>
@@ -100,10 +101,10 @@
           </h2>
         </div>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-          <div class="card-body">
+          <div class="card-body container drop1">
             <p>The course was done at <a href="https://www.telacad.ro/">Telecom Academy</a>, it was composed from a series of exams.</p>
             <p>This was the second programming course I took, so it was easyer to get into it.</p>
-            <p>Swift has a special place in my heart, but without owning a mac it was hard to sharp my skills and I could not found a position for it.</p>
+            <p>Swift has a special place in my heart, but without owning a Mac it was hard to sharp my skills and find a position for it.</p>
           </div>
         </div>
       </div>
@@ -116,7 +117,7 @@
           </h2>
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-          <div class="card-body">
+          <div class="card-body container drop1">
             <p>This course has been online at <a href="https://www.udemy.com/">Udemy</a>, this is the product of the knowledge gathered there.</p>
             <p>This is the last course that I did, and to be honnest I was surprised by how much I love doing this.</p>
             <p>This is more than a C.V. or presentation, it is made to show what I have learned and what I am capable off.</p>
@@ -128,6 +129,9 @@
     <div class="skills" id="experience">
       <h3>My Experience.</h3>
 
+      <div class="container exp1">
+
+
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
         <ol class="carousel-indicators">
@@ -138,7 +142,7 @@
 
         <div class="carousel-inner">
 
-          <div class="skill-row carousel-item active">
+          <div class="skill-row carousel-item active" data-interval="7000">
 
             <img class="skillsi" src="img/EminusSoftware.png" alt="Eminus">
             <h2>Eminus Software - QA Testing</h2>
@@ -150,7 +154,7 @@
             <p>Testing different API and End points also the request body to validate the data and the correct behaviour.</p>
 
           </div>
-          <div class="skill-row carousel-item">
+          <div class="skill-row carousel-item" data-interval="7000">
 
             <img class="skillsi" src="img/IBM.png" alt="IBM">
             <h2>IBM - IT Specialist, Test Specialist</h2>
@@ -162,7 +166,7 @@
             <p>In each version of the product there are new challenges to reproduce and test the fixes using different environments setup.</p>
 
           </div>
-          <div class="skill-row carousel-item">
+          <div class="skill-row carousel-item" data-interval="7000">
 
             <img class="skillsi" src="img/EA.png" alt="EA">
             <h2>Electronic Arts - QA Testing</h2>
@@ -187,13 +191,14 @@
       </div>
 
     </div>
+          </div>
   </div>
 
   <div class="Education" id="education">
     <h3 class="edu">Education</h3>
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-12">
           <div class="card card1">
             <img src="img/fac.jpg" class="card-img-top" alt="Valahia">
             <div class="card-body">
@@ -211,7 +216,7 @@
             <img src="img/liceu.jpg" class="card-img-top" alt="Vladimir Streinu">
             <div class="card-body">
               <h5 class="card-title">Colegiul National <strong>Vladimir Streinu</strong></h5>
-              <h6 class="card-subtitle mb-2 text-muted">Mathematics & Computer Science</h6>
+              <h6 class="card-subtitle mb-2 text-muted">Mathematics & Informatics</h6>
               <p class="card-text">2005-2009.</p>
               <a href="http://www.cnvs.eu/" class="btn btn-info"><i class="fab fa-internet-explorer fa-3x"></i></a>
               <a href="https://www.google.com/maps/place/Colegiul+Na%C8%9Bional+Vladimir+Streinu/@44.7218517,25.3144642,19.25z/data=!4m12!1m6!3m5!1s0x0:0xc9eeb15fc8e1ca0e!2sColegiul+Na%C8%9Bional+Vladimir+Streinu!8m2!3d44.7221298!4d25.3143447!3m4!1s0x0:0xc9eeb15fc8e1ca0e!8m2!3d44.7221298!4d25.3143447"
@@ -219,7 +224,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12">
+        <div class="col-lg-4 col-md-6">
           <div class="card card1">
             <img src="img/sc.jpg" class="card-img-top" alt="Serban Cioculescu">
             <div class="card-body">
@@ -237,12 +242,16 @@
   </div>
 
   <div class="contact-me" id="contact">
+    <div class="container">
+
+
     <h3>Get In Touch</h3>
     <h2>Did I manage to capture your attention?</h2>
     <p>I am always available for a discusion, contact me via email using the mail option bellow, the social media, or by phone.</p>
     <a href="mailto:eduard.ghinea@gmail.com"><img src="img/mail.png" class="mail" alt="mail"></a>
     <i class="fas fa-at">eduard.ghinea@gmail.com</i><br>
     <i class="fas fa-phone">0736872237</i>
+        </div>
 
   </div>
   </div>
@@ -251,15 +260,16 @@
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/eduard-ghinea-b97515b6/"><i class="fab fa-linkedin fa-3x"></i></a>
     <a class="footer-link" href="https://twitter.com/eghy00"><i class="fab fa-twitter fa-3x"></i></a>
-    <a class="footer-link" href="https://github.com/eghinea/C.V./blob/master/Eduard%20Ghinea.pdf"><i class="far fa-file-pdf fa-3x"></i></a>
-    <a class="footer-link" href="https://github.com/eghinea/C.V./blob/master/Eduard%20Ghinea.docx"><i class="far fa-file-word fa-3x"></i></a>
+    <a class="footer-link" href="https://github.com/eghinea/C.V./raw/master/Eduard%20Ghinea.pdf"><i class="far fa-file-pdf fa-3x"></i></a>
+    <a class="footer-link" href="https://github.com/eghinea/C.V./raw/master/Eduard%20Ghinea.docx"><i class="far fa-file-word fa-3x"></i></a>
     <p class="fot">© 2018 Eduard Ghinea.</p>
   </div>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>
