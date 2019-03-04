@@ -103,9 +103,14 @@ h2 {
     font-size: 175%;
   }
   .ab1 {
-    font-size: 175%;
+    font-size: 190%;
+    max-width: 75%;
   }
-  .card-body {
+  .drop1 {
+    font-size: 190%;
+    max-width: 75%
+  }
+  .card-ed {
     font-size: 175%;
   }
   .skill-row {
