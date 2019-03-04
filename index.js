@@ -53,6 +53,25 @@ $("#drpi4").click(function(){
 
 });
 
+$("#navhomebtn").click(function(){
+  $(".hamburg").click();
+});
+
+$("#navaboutbtn").click(function(){
+  $(".hamburg").click();
+});
+
+$("#navexpbtn").click(function(){
+  $(".hamburg").click();
+});
+
+$("#navedubtn").click(function(){
+  $(".hamburg").click();
+});
+
+$("#navcontactbtn").click(function(){
+  $(".hamburg").click();
+});
 
 
 });
