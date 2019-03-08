@@ -74,38 +74,72 @@ $("#navcontactbtn").click(function(){
 });
 
 $(".btnEminus").click(function(){
-  var status = "none";
-  if ($(".cardEminus").css("display") == status){
-    $(".cardEminus").fadeIn(700);
-    $(".btnEminus").toggleClass("active");
-  }else {
-    $(".cardEminus").fadeOut(700);
-    $(".btnEminus").toggleClass("active");
-  }
+  // var status = "none";
+  // if ($(".cardEminus").css("display") == status){
+  //   $(".cardEminus").fadeIn(700);
+  //   $(".btnEminus").toggleClass("active");
+  // }else {
+  //   $(".cardEminus").fadeOut(700);
+  //   $(".btnEminus").toggleClass("active");
+  // }
+  $(".cardEminus").fadeToggle(700);
+  $(".btnEminus").toggleClass("active");
 });
 
 $(".btnIBM").click(function(){
-  var status = "none";
-  if ($(".cardIBM").css("display") == status){
-    $(".cardIBM").fadeIn(700);
+  // var status = "none";
+  // if ($(".cardIBM").css("display") == status){
+  //   $(".cardIBM").fadeIn(700);
+  //   $(".btnIBM").toggleClass("active");
+  // }else {
+  //   $(".cardIBM").fadeOut(700);
+  //   $(".btnIBM").toggleClass("active");
+  // }
+    $(".cardIBM").fadeToggle(700);
     $(".btnIBM").toggleClass("active");
-  }else {
-    $(".cardIBM").fadeOut(700);
-    $(".btnIBM").toggleClass("active");
-  }
 });
 
 $(".btnEA").click(function(){
-  var status = "none";
-  if ($(".cardEA").css("display") == status){
-    $(".cardEA").fadeIn(700);
-    $(".btnEA").toggleClass("active");
-  }else {
-    $(".cardEA").fadeOut(700);
-    $(".btnEA").toggleClass("active");
-  }
+  // var status = "none";
+  // if ($(".cardEA").css("display") == status){
+  //   $(".cardEA").fadeIn(700);
+  //   $(".btnEA").toggleClass("active");
+  // }else {
+  //   $(".cardEA").fadeOut(700);
+  //   $(".btnEA").toggleClass("active");
+  // }
+  $(".cardEA").fadeToggle(700);
+  $(".btnEA").toggleClass("active");
 });
 
+$( ".fa-arrow-down" ).animate({
+  opacity: 0.25,
+  bottom: "100",
+  height: "toggle"
+}, 1000, function() {
+
+});
+
+
+    function loop() {
+        $('.fa-arrow-down').css({bottom:120});
+        $('.fa-arrow-down').animate ({
+          opacity: 0.50,
+          bottom: "100",
+          height: "toggle"
+        }, 1000, function() {
+          if ( $(window).scrollTop() <= 300 ) {
+            loop();
+          } else {
+            $(".fa-arrow-down").css("display", "none");
+          }
+        });
+    };
+  loop();
+
+  $(window).on("scroll", function(){
+    console.log($(window).scrollTop());
+  });
 
 
 if($(document).width() <= 990){

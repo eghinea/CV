@@ -36,12 +36,19 @@ h2 {
 .mail {
   border-radius: 50%;
 }
-.top-container {
+.first {
   background-image: url("img/hello.jpg");
   /* height: 100%; */
-  padding: 370px;
+
   /* padding-top: 250px; */
   color: white;
+}
+.fa-arrow-down {
+  position: absolute;
+  bottom: 120px;
+}
+.top-container {
+  padding: 20% 0;
 }
 .exp1 {
 
@@ -177,5 +184,20 @@ h2 {
   }
   .cardEA {
     font-size: 125%;
+  }
+  .nav-item {
+    padding-bottom: 2rem;
+    font-size: 175%;
+  }
+  .navbar-toggler-icon {
+    padding-bottom: 2rem;
+    font-size: 175%;
+  }
+  .dropdown-item {
+    padding-bottom: 2rem;
+    font-size: 175%;
+  }
+  .top-container {
+    padding: 37% 0;
   }
 }
