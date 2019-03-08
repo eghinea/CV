@@ -73,5 +73,46 @@ $("#navcontactbtn").click(function(){
   $(".hamburg").click();
 });
 
+$(".btnEminus").click(function(){
+  var status = "none";
+  if ($(".cardEminus").css("display") == status){
+    $(".cardEminus").fadeIn(700);
+    $(".btnEminus").toggleClass("active");
+  }else {
+    $(".cardEminus").fadeOut(700);
+    $(".btnEminus").toggleClass("active");
+  }
+});
+
+$(".btnIBM").click(function(){
+  var status = "none";
+  if ($(".cardIBM").css("display") == status){
+    $(".cardIBM").fadeIn(700);
+    $(".btnIBM").toggleClass("active");
+  }else {
+    $(".cardIBM").fadeOut(700);
+    $(".btnIBM").toggleClass("active");
+  }
+});
+
+$(".btnEA").click(function(){
+  var status = "none";
+  if ($(".cardEA").css("display") == status){
+    $(".cardEA").fadeIn(700);
+    $(".btnEA").toggleClass("active");
+  }else {
+    $(".cardEA").fadeOut(700);
+    $(".btnEA").toggleClass("active");
+  }
+});
+
+
+
+if($(document).width() >= 990){
+
+
+}
+
+
 
 });

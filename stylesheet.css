@@ -22,11 +22,12 @@ h2 {
   border-radius: 50%;
   max-width: 50%;
   max-height: 50%;
+
 }
 .skill-row {
   padding: 5rem;
-  margin-left: 5rem;
 }
+
 .drop1 {
   text-align: left;
   max-width: 50%;
@@ -37,13 +38,14 @@ h2 {
 }
 .top-container {
   background-image: url("img/hello.jpg");
-  /* height: 700px; */
-  padding: 300px;
+  /* height: 100%; */
+  padding: 370px;
   /* padding-top: 250px; */
   color: white;
 }
 .exp1 {
-  text-align: left;
+
+  margin: 0;
 
 }
 .ab1 {
@@ -55,6 +57,7 @@ h2 {
 .skills {
   background-image: url("img/Experience.png");
   color: white;
+
 }
 .about {
   background-image: url("img/about.jpg");
@@ -98,6 +101,32 @@ h2 {
   background-color: #b4e9e2;
 }
 
+.mobile-screen {
+  color: white;
+  display: none;
+}
+.mobile-btn {
+  padding: 1rem;
+}
+.cardEminus {
+  display: none;
+  color: White;
+  text-align: left;
+  padding: 1rem;
+}
+.cardIBM {
+  display: none;
+  color: White;
+  text-align: left;
+  padding: 1rem;
+}
+.cardEA {
+  display: none;
+  color: White;
+  text-align: left;
+  padding: 1rem;
+}
+
 @media (max-width: 990px) {
   nav {
     font-size: 175%;
@@ -115,6 +144,7 @@ h2 {
   }
   .skill-row {
     font-size: 175%;
+    max-width: 150%;
   }
   .contact-me {
     font-size: 175%;
@@ -123,9 +153,28 @@ h2 {
     font-size: 175%;
   }
   .btn {
-    margin: 2rem;
+    margin: 1rem;
   }
   .txt {
+    font-size: 125%;
+  }
+  .mobile-screen {
+    display: initial;
+    font-size: 175%;
+  }
+  .exp1 {
+    display: none;
+  }
+  .mobile-btn {
+    font-size: 125%;
+  }
+  .cardEminus {
+    font-size: 125%;
+  }
+  .cardIBM {
+    font-size: 125%;
+  }
+  .cardEA {
     font-size: 125%;
   }
 }
