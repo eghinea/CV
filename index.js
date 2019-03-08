@@ -108,8 +108,10 @@ $(".btnEA").click(function(){
 
 
 
-if($(document).width() >= 990){
-
+if($(document).width() <= 990){
+$(".btnEminus").toggleClass("btn-block");
+$(".btnIBM").toggleClass("btn-block");
+$(".btnEA").toggleClass("btn-block");
 
 }
 
