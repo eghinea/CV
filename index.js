@@ -121,6 +121,9 @@ $( ".fa-arrow-down" ).animate({
 });
 
 
+
+
+  if ($(window).width > 990) {
     function loop() {
         $('.fa-arrow-down').css({bottom:120});
         $('.fa-arrow-down').animate ({
@@ -130,16 +133,19 @@ $( ".fa-arrow-down" ).animate({
         }, 1000, function() {
           if ( $(window).scrollTop() <= 300 ) {
             loop();
+          } else if( $(window).scrollTop() == 0 ) {
+            loop();
           } else {
             $(".fa-arrow-down").css("display", "none");
           }
         });
     };
   loop();
+  }
 
-  $(window).on("scroll", function(){
-    console.log($(window).scrollTop());
-  });
+  // $(window).on("scroll", function(){
+  //   console.log($(window).scrollTop());
+  // });
 
 
 if($(document).width() <= 990){
