@@ -8,6 +8,7 @@ h1 {
   font-weight: bold;
   font-size: 5rem;
 }
+
 h3 {
   font-family: 'Pacifico', cursive;
   color: white;
@@ -18,12 +19,13 @@ h3 {
 h2 {
   display: inline;
 }
+
 .skillsi {
   border-radius: 50%;
   max-width: 50%;
   max-height: 50%;
-
 }
+
 .skill-row {
   padding: 5rem;
 }
@@ -31,47 +33,50 @@ h2 {
 .drop1 {
   text-align: left;
   max-width: 50%;
-
 }
+
 .mail {
   border-radius: 50%;
 }
+
 .first {
   background-image: url("img/hello.jpg");
   /* height: 100%; */
-
   /* padding-top: 250px; */
   color: white;
 }
+
 .fa-arrow-down {
   position: absolute;
   bottom: 120px;
 }
+
 .top-container {
   padding: 20% 0;
 }
+
 .exp1 {
-
   margin: 0;
-
 }
+
 .ab1 {
   text-align: left;
   max-width: 50%;
-
+  padding: 1.5rem;
 }
 
 .skills {
   background-image: url("img/Experience.png");
   color: white;
-
 }
+
 .about {
   background-image: url("img/about.jpg");
   height: 300px;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .contact-me {
   background-image: url("img/contact.png");
   background-repeat: no-repeat;
@@ -79,41 +84,83 @@ h2 {
   padding: 3%;
   color: white;
 }
+
 .bottom-container {
   background-color: #11999E;
   padding: 1.5%;
 }
+
 .Education {
   background-image: url("img/ed_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   padding: 5%;
 }
+
 .icon {
   margin-right: 1rem;
 }
+
 .footer-link {
   margin-right: 1rem;
   color: white;
 }
+
 .fot {
   margin-top: 1rem;
 }
+
 .card1 {
   margin: 2rem;
   border-width: medium;
   border-color: black;
 }
-.card1:hover {
-  background-color: #b4e9e2;
+
+.btnZoom {
+  -ms-transform: scale(2, 2);
+  /* IE 9 */
+  -webkit-transform: scale(2, 2);
+  /* Safari */
+  transform: scale(2, 2);
+  padding: 1.5rem;
+}
+
+@media (min-width: 990px) {
+  .card1:hover {
+    background-color: #b4e9e2;
+    -ms-transform: scale(2, 2);
+    /* IE 9 */
+    -webkit-transform: scale(2, 2);
+    /* Safari */
+    transform: scale(2, 2);
+    margin: 4rem;
+  }
+
+  .caruselP:hover {
+    -ms-transform: scale(2, 2);
+    /* IE 9 */
+    -webkit-transform: scale(2, 2);
+    /* Safari */
+    transform: scale(2, 2);
+    text-align: center;
+  }
 }
 
 .mobile-screen {
   color: white;
   display: none;
 }
+
 .mobile-btn {
   padding: 1rem;
+}
+
+.transfromSize {
+  -ms-transform: scale(4, 5);
+  /* IE 9 */
+  -webkit-transform: scale(4, 5);
+  /* Safari */
+  transform: scale(4, 5);
 }
 
 .cardEminus {
@@ -122,12 +169,14 @@ h2 {
   text-align: left;
   padding: 1rem;
 }
+
 .cardIBM {
   display: none;
   color: White;
   text-align: left;
   padding: 1rem;
 }
+
 .cardEA {
   display: none;
   color: White;
@@ -139,65 +188,87 @@ h2 {
   nav {
     font-size: 175%;
   }
+
+  .btnCursuri {
+    display: none;
+  }
+
   .ab1 {
     font-size: 190%;
     max-width: 75%;
   }
+
   .drop1 {
     font-size: 190%;
     max-width: 75%
   }
+
   .card-ed {
     font-size: 175%;
   }
+
   .skill-row {
     font-size: 175%;
     max-width: 150%;
   }
+
   .contact-me {
     font-size: 175%;
   }
+
   .bottom-container {
     font-size: 175%;
   }
+
   .btn {
     margin: 1rem;
   }
+
   .txt {
     font-size: 125%;
   }
+
   .mobile-screen {
     display: initial;
     font-size: 175%;
   }
+
   .exp1 {
     display: none;
   }
+
   .mobile-btn {
     font-size: 125%;
     padding: 3rem;
   }
+
   .cardEminus {
     font-size: 125%;
   }
+
   .cardIBM {
     font-size: 125%;
   }
+
   .cardEA {
     font-size: 125%;
   }
+
   .nav-item {
     padding-bottom: 2rem;
     font-size: 175%;
   }
+
   .navbar-toggler-icon {
     padding-bottom: 2rem;
     font-size: 175%;
   }
+
   .dropdown-item {
     padding-bottom: 2rem;
     font-size: 175%;
   }
+
   .top-container {
     padding: 37% 0;
   }
