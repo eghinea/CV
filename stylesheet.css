@@ -54,6 +54,15 @@ h2 {
 .top-container {
   padding: 20% 0;
 }
+.btnEminus {
+  font-size: 150%;
+}
+.btnIBM {
+  font-size: 150%;
+}
+.btnEA {
+  font-size: 150%;
+}
 
 .exp1 {
   margin: 0;
@@ -188,6 +197,14 @@ h2 {
   nav {
     font-size: 175%;
   }
+  .skillsii {
+    float: left;
+    border-radius: 50%;
+  }
+  .text-mob-exp {
+    font-size: 150%;
+
+   }
 
   .btnCursuri {
     display: none;
@@ -260,8 +277,8 @@ h2 {
   }
 
   .navbar-toggler-icon {
-    padding-bottom: 2rem;
-    font-size: 175%;
+    padding-bottom: 3rem;
+    font-size: 200%;
   }
 
   .dropdown-item {
