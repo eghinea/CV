@@ -125,6 +125,9 @@ $(document).ready(function() {
     $(".cursuriPar").toggleClass("btnZoom");
   });
 
+  $(".btnAbout").click(function() {
+    $(".aboutPar").toggleClass("btnZoom");
+  });
 
 
 });
