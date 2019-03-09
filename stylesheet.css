@@ -200,6 +200,7 @@ h2 {
   .skillsii {
     float: left;
     border-radius: 50%;
+    padding: 1.5rem;
   }
   .text-mob-exp {
     font-size: 150%;
