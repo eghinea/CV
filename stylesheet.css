@@ -209,6 +209,9 @@ h2 {
   .btnCursuri {
     display: none;
   }
+  .btnAbout {
+    display: none;
+  }
 
   .ab1 {
     font-size: 190%;
